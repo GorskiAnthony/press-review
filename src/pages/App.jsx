@@ -2,6 +2,7 @@ import { Routes, Route } from "react-router-dom";
 import Navbar from "../components/Navbar";
 import Home from "./Home";
 import Form from "./Form";
+import NotFound from "./NotFound";
 import Footer from "../components/Footer";
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/add" element={<Form />} />
+          <Route path="/*" element={<NotFound />} />
         </Routes>
       </div>
       <Footer />
