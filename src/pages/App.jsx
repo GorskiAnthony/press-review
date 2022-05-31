@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar";
 import Home from "./Home";
 import Form from "./Form";
 import NotFound from "./NotFound";
+import Week from "./Week";
 import Footer from "../components/Footer";
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <div className="max-w-3xl mx-auto grow">
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/week/:id" element={<Week />} />
           <Route path="/add" element={<Form />} />
           <Route path="/*" element={<NotFound />} />
         </Routes>

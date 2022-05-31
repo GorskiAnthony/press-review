@@ -6,7 +6,7 @@ const Form = () => {
       <h1 className="text-4xl font-bold my-6">Ajouter un article</h1>
       <iframe
         title={"form"}
-        src="https://docs.google.com/forms/d/e/1FAIpQLSdbMc07CA6EE4c2bXvz7LLHClumfKGuPavqFgIUArCCO7_Spg/viewform?embedded=true"
+        src="https://docs.google.com/forms/d/e/1FAIpQLSdb0SHpKF0j_midhA-R4Ur52wDUa8xEvYPf4KwuQKGJ485L1A/viewform?embedded=true"
         className="min-h-screen"
         width="700"
       >
