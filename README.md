@@ -10,10 +10,11 @@ Celui-ci sera une v1 pour voir si c'est une bonne idée ou pas !
 
 ```shell
 npm install
+# Pour lancer le serveur en local
+npm start 
 ```
 
 ## Outils 🛠
 
-- [Google sheet](https://docs.google.com/spreadsheets/d/1zjSRVYv_ZvZNFnBTqx-C3ECLtioKbJAMt2CtnrpdTMg/edit?resourcekey#gid=1068551771)
+- [Google sheet](https://www.google.fr/intl/fr/sheets/about/)
 - [React](https://fr.reactjs.org/)
-- [Draw.io](https://draw.io/)

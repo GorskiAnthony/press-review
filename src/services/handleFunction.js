@@ -1,7 +1,7 @@
 import axios from "axios";
 import papa from "papaparse";
 
-const SESSION = 9;
+const SESSION = REACT_APP_SESSION_WCS;
 
 const handleGetAllArticles = async () => {
   try {
