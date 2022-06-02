@@ -1,11 +1,13 @@
 import axios from "axios";
 import papa from "papaparse";
 
+const { REACT_APP_ENDPOINT, REACT_APP_SESSION_WCS } = process.env;
+
 const SESSION = REACT_APP_SESSION_WCS;
 
 const handleGetAllArticles = async () => {
   try {
-    const response = await axios.get(process.env.REACT_APP_ENDPOINT);
+    const response = await axios.get(REACT_APP_ENDPOINT);
     const data = await papa.parse(response.data, {
       header: true,
       skipEmptyLines: true,
@@ -18,7 +20,7 @@ const handleGetAllArticles = async () => {
 
 const getWeek = async () => {
   try {
-    const response = await axios.get(process.env.REACT_APP_ENDPOINT);
+    const response = await axios.get(REACT_APP_ENDPOINT);
     const data = await papa.parse(response.data, {
       header: true,
       skipEmptyLines: true,
@@ -35,7 +37,7 @@ const getWeek = async () => {
 const getArticlesByWeek = async (week) => {
   week = parseInt(week) + SESSION;
   try {
-    const response = await axios.get(process.env.REACT_APP_ENDPOINT);
+    const response = await axios.get(REACT_APP_ENDPOINT);
     const data = await papa.parse(response.data, {
       header: true,
       skipEmptyLines: true,
