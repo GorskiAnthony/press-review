@@ -23,11 +23,7 @@ const Home = () => {
             ))
         ) : (
           <p className="font-semibold text-lg whitespace-nowrap">
-            Pas encore d'articles, n'hésitez pas à en{" "}
-            <Link to="/add" className="text-[#F28A89]">
-              créer un ici
-            </Link>
-            !
+            Pas encore d'articles, n'hésitez pas à en ajouter !
           </p>
         )}
       </div>
