@@ -12,7 +12,7 @@ const Archive = () => {
         {files.map((file, id) => (
           <div key={id}>
             <h2>{file.name}</h2>
-            <img src={img} />
+            <img src={img} alt={file.name} />
             <a
               href={`${archives}/${file.file}.csv`}
               className="inline-flex items-center px-5 py-2 border border-transparent text-base font-medium rounded-full shadow-sm text-white bg-[#F28A89] hover:bg-[#e25151] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 dropdown"
