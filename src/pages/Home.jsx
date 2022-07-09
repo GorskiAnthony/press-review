@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
 import Article from "../components/Article";
 import { handleGetAllArticles } from "../services/handleFunction";
 
