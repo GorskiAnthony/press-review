@@ -4,7 +4,7 @@
 
 Ce projet a pour but de faire une mini app pour faire notre press-review.
 
-Celui-ci sera une v1 pour voir si c'est une bonne idée ou pas !
+Celui-ci sera une v1.1 pour voir si c'est une bonne idée ou pas !
 
 ## Installation ⚙️
 
